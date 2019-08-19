@@ -8,3 +8,4 @@ for i in range(len(list01) - 1):
             min = j
         if i != min:
             list01[min], list01[i] = list01[i], list01[min]
+print(list01)
